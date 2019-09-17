@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  16 SEP 2019 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  17 SEP 2019 10:36
 entering extended mode
 **"./EV_1_3_Investigacion de par de rotacion y cuaternios.tex"
 ("EV_1_3_Investigacion de par de rotacion y cuaternios.tex"
@@ -862,60 +862,59 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../../../../../../../Pictures/logo.png, id=1, 366.36874pt x 86.3225pt>
-File: ../../../../../../../Pictures/logo.png Graphic file (type png)
-<use ../../../../../../../Pictures/logo.png>
-Package pdftex.def Info: ../../../../../../../Pictures/logo.png  used on input 
-line 16.
+<logo.png, id=1, 366.36874pt x 86.3225pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 16.
 (pdftex.def)             Requested size: 366.36784pt x 86.32227pt.
-<../../../../../../../Pictures/2.png, id=3, 245.41687pt x 182.93344pt>
-File: ../../../../../../../Pictures/2.png Graphic file (type png)
-<use ../../../../../../../Pictures/2.png>
-Package pdftex.def Info: ../../../../../../../Pictures/2.png  used on input lin
-e 28.
+<2.png, id=3, 245.41687pt x 182.93344pt>
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 35.
 (pdftex.def)             Requested size: 245.41626pt x 182.93298pt.
-<../../../../../../../Pictures/1.png, id=4, 299.61937pt x 18.0675pt>
-File: ../../../../../../../Pictures/1.png Graphic file (type png)
-<use ../../../../../../../Pictures/1.png>
-Package pdftex.def Info: ../../../../../../../Pictures/1.png  used on input lin
-e 32.
+<1.png, id=4, 299.61937pt x 18.0675pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 39.
 (pdftex.def)             Requested size: 299.61864pt x 18.06744pt.
-
-Overfull \hbox (6.67355pt too wide) in paragraph at lines 42--49
-\OT1/jkp/m/n/12 nes, aut-hor=del Cas-ti-llo, GF To-rres, jour-nal=Miscelanea Ma
--tem-ti-ca, pages=43--50, year=1999
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--49
-
- []
-
 [1
 
-{C:/Users/Lalo 7u7/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../../..
-/../../../../Pictures/logo.png> <../../../../../../../Pictures/2.png> <../../..
-/../../../../Pictures/1.png>]
-("EV_1_3_Investigacion de par de rotacion y cuaternios.aux"
+{C:/Users/Lalo 7u7/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.p
+ng> <./2.png> <./1.png>]
+Overfull \hbox (0.31067pt too wide) in paragraph at lines 52--52
+\OT1/jkp/b/n/12 den de-du-cir f[]acil-men-te uti-li-zan-do co-mo re-pre-sen-ta-
+ci[]on au-xi-liar in-ter-me-dia el eje y []angu-
+ []
+
+<22.png, id=12, 304.88907pt x 156.585pt>
+File: 22.png Graphic file (type png)
+<use 22.png>
+Package pdftex.def Info: 22.png  used on input line 53.
+(pdftex.def)             Requested size: 304.88832pt x 156.58461pt.
+("EV_1_3_Investigacion de par de rotacion y cuaternios.bbl" [2 <./22.png>])
+[3
+
+] ("EV_1_3_Investigacion de par de rotacion y cuaternios.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 5022 strings out of 492895
- 70332 string characters out of 3122332
- 141002 words of memory out of 3000000
- 8852 multiletter control sequences out of 15000+200000
- 7495 words of font info for 21 fonts, out of 3000000 for 9000
+ 5040 strings out of 492895
+ 70350 string characters out of 3122332
+ 142006 words of memory out of 3000000
+ 8862 multiletter control sequences out of 15000+200000
+ 12051 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,31p,410b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,5n,31p,852b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r
 .enc}<C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/kp
 fonts/jkpbn8a.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/kpfonts/jkpmn8a.pfb>
-Output written on "EV_1_3_Investigacion de par de rotacion y cuaternios.pdf" (1
- page, 59089 bytes).
+pe1/public/kpfonts/jkpmit8a.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb>
+Output written on "EV_1_3_Investigacion de par de rotacion y cuaternios.pdf" (3
+ pages, 111898 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
