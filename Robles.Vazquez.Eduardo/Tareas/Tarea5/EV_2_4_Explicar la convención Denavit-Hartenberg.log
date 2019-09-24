@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  23 SEP 2019 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  24 SEP 2019 11:08
 entering extended mode
 **"./EV_2_4_Explicar la convención Denavit-Hartenberg.tex"
 ("EV_2_4_Explicar la convención Denavit-Hartenberg.tex"
@@ -816,7 +816,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
 
 
 ]
-<1.png, id=63, 460.72125pt x 269.50688pt>
+<1.png, id=65, 460.72125pt x 269.50688pt>
 File: 1.png Graphic file (type png)
 <use 1.png>
 Package pdftex.def Info: 1.png  used on input line 123.
@@ -833,12 +833,12 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 [4
 
  <./1.png>]
-<2.png, id=70, 318.43968pt x 301.8778pt>
+<2.png, id=72, 318.43968pt x 301.8778pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
 Package pdftex.def Info: 2.png  used on input line 136.
 (pdftex.def)             Requested size: 238.82918pt x 226.40779pt.
-<3.png, id=71, 305.64188pt x 327.47343pt>
+<3.png, id=73, 305.64188pt x 327.47343pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
 Package pdftex.def Info: 3.png  used on input line 146.
@@ -848,22 +848,22 @@ Package pdftex.def Info: 3.png  used on input line 146.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <./2.png>] [6 <./3.png>]
-<4.png, id=82, 215.30438pt x 16.56187pt>
+<4.png, id=84, 215.30438pt x 16.56187pt>
 File: 4.png Graphic file (type png)
 <use 4.png>
 Package pdftex.def Info: 4.png  used on input line 161.
 (pdftex.def)             Requested size: 215.30385pt x 16.56183pt.
-<5.png, id=83, 143.78719pt x 70.01157pt>
+<5.png, id=85, 143.78719pt x 70.01157pt>
 File: 5.png Graphic file (type png)
 <use 5.png>
 Package pdftex.def Info: 5.png  used on input line 166.
 (pdftex.def)             Requested size: 287.57367pt x 140.02277pt.
-<6.png, id=84, 115.93312pt x 21.07875pt>
+<6.png, id=86, 115.93312pt x 21.07875pt>
 File: 6.png Graphic file (type png)
 <use 6.png>
 Package pdftex.def Info: 6.png  used on input line 171.
 (pdftex.def)             Requested size: 156.51003pt x 28.45633pt.
-<7.png, id=85, 246.1697pt x 17.31468pt>
+<7.png, id=87, 246.1697pt x 17.31468pt>
 File: 7.png Graphic file (type png)
 <use 7.png>
 Package pdftex.def Info: 7.png  used on input line 177.
@@ -895,29 +895,31 @@ enberg".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 12094 strings out of 492895
- 181622 string characters out of 3122332
+ 12082 strings out of 492895
+ 181523 string characters out of 3122332
  352382 words of memory out of 3000000
  15792 multiletter control sequences out of 15000+200000
- 29335 words of font info for 92 fonts, out of 3000000 for 9000
+ 28859 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,11n,38p,778b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,38p,796b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
 enc}<C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lalo 7u7/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Lalo 7u7
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/User
-s/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.p
-fb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
-tmb8a.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
-times/utmr8a.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmri8a.pfb>
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lalo 7u7/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lalo 
+7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/u
+hvb8a.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+helvetic/uhvr8a.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/urw/helvetic/uhvro8a.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Lalo 7u7/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Lalo 7u7/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "EV_2_4_Explicar la convención Denavit-Hartenberg.pdf" (9 pa
-ges, 198171 bytes).
+ges, 213139 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
  14945 words of extra memory for PDF output out of 17280 (max. 10000000)
 
