@@ -1,0 +1,177 @@
+\documentclass[11pt,a4paper,oldfontcommands,oneside]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage[dvips]{graphicx}
+\usepackage{xcolor}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage[
+breaklinks=true,colorlinks=true,
+%linkcolor=blue,urlcolor=blue,citecolor=blue,% PDF VIEW
+linkcolor=black,urlcolor=black,citecolor=black,% PRINT
+bookmarks=true,bookmarksopenlevel=2]{hyperref}
+
+\usepackage{geometry}
+% PDF VIEW
+% \geometry{total={210mm,297mm},
+% left=25mm,right=25mm,%
+% bindingoffset=0mm, top=25mm,bottom=25mm}
+% PRINT
+\geometry{total={210mm,297mm},
+left=20mm,right=20mm,
+bindingoffset=10mm, top=25mm,bottom=25mm}
+
+\OnehalfSpacing
+%\linespread{1.3}
+
+%%% CHAPTER'S STYLE
+\chapterstyle{bianchi}
+%\chapterstyle{ger}
+%\chapterstyle{madsen}
+%\chapterstyle{ell}
+%%% STYLE OF SECTIONS, SUBSECTIONS, AND SUBSUBSECTIONS
+\setsecheadstyle{\Large\bfseries\sffamily\raggedright}
+\setsubsecheadstyle{\large\bfseries\sffamily\raggedright}
+\setsubsubsecheadstyle{\bfseries\sffamily\raggedright}
+
+
+%%% STYLE OF PAGES NUMBERING
+%\pagestyle{companion}\nouppercaseheads 
+%\pagestyle{headings}
+%\pagestyle{Ruled}
+\pagestyle{plain}
+\makepagestyle{plain}
+\makeevenfoot{plain}{\thepage}{}{}
+\makeoddfoot{plain}{}{}{\thepage}
+\makeevenhead{plain}{}{}{}
+\makeoddhead{plain}{}{}{}
+
+
+\maxsecnumdepth{subsection} % chapters, sections, and subsections are numbered
+\maxtocdepth{subsection} % chapters, sections, and subsections are in the Table of Contents
+
+
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+
+\begin{document}
+
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+%   TITLEPAGE
+%
+%   due to variety of titlepage schemes it is probably better to make titlepage manually
+%
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+\thispagestyle{empty}
+
+{%%%
+\sffamily
+\centering
+\Large
+
+~\vspace{\fill}
+\includegraphics[scale=1]{logo1.png} \\
+{\huge 
+\vspace{4cm}
+Identificar las aplicaciones de los manipuladores paralelos
+}
+\vspace{2.5cm}
+
+{\LARGE
+Eduardo Robles Vázquez
+}
+
+\vspace{2.5cm}
+
+Universidad Politécnica de la Zona Metropolitana de Guadalajara
+
+\vspace{3.5cm}
+
+Profesor: Carlos Enrique Morán Garabito
+
+\vspace{\fill}
+
+5 de Noviembre de 2019
+
+%%%
+}%%%
+
+\vspace{.5cm}
+\hfill\break
+
+
+
+
+\tableofcontents*
+
+\clearpage
+
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+
+\chapter{Manipulador paralelo} 
+
+Es un dispositivo multifuncional y reprogramable diseñado para mover y manipular materiales, partes o herramientas a través de movimientos programados variables para la realización de una variedad de tareas especificadas.\\
+
+Un robot paralelo está compuesto por una cadena cinemática cerrada, la cual consta de cadenas seriales separadas que conectan al eslabón fijo (plataforma fija) con el efector final o eslabón móvil (plataforma móvil).\\
+
+Los robots también son llamados manipuladores, y ambos términos son manejados en este trabajo.\\
+
+\section{Aplicaciones iniciales}
+Un robot paralelo consiste de una plataforma móvil unida a una plataforma fija mediante una serie de cadenas cinemáticas llamadas piernas. Partiendo del anterior concepto, Bonev establece que el origen del robot paralelo se encuentra en la industria del entretenimiento, siendo James E. Gwinnett en el año 1928 uno de los pioneros en patentar un artefacto basado en el concepto de robot paralelo. La Figura 1 presenta un esquema incluido en el documento de la patente original. \\
+
+El dispositivo presenta una arquitectura donde una cadena cinemática o pierna central restringe el movimiento de la plataforma móvil respecto a la base de forma tal que su movimiento resultante es del tipo esférico. Una cadena cinemática ubicada en uno de los extremos de las plataformas, provee el movimiento de rotación a la plataforma móvil que es aprovechado para producir el movimiento requerido para el entretenimiento de los usuarios.\\
+
+\begin{center}
+\includegraphics[width=8cm]{5.jpg}
+\end{center}
+
+
+La primera aplicación industrial conocida del robot paralelo, siguiendo la cronología propuesta por Bonev, fue presentada por Willard L.V. Pollard en el año 1940. El dispositivo fue propuesto para pintar vehículos de forma automática con pintura de aerosol y posteriormente fue patentado como dispositivo para controlar el posicionamiento de una herramienta. La Figura 2 muestra una representación esquemática del ingenioso aparato de 5 grados de libertad (GdL) donde la plataforma móvil va unida a la fija mediante 3 cadenas cinemáticas o piernas. El diseño presenta tres motores que determinan la posición de la cabeza de la herramienta, y otros dos motores que mediante un sistema de cables transmite el movimiento que permite orientar la herramienta.\\
+
+No fue sino hasta 1965 que aparece la primera publicación científica referida a un robot paralelo. Stewart introduce un robot paralelo de 6 GdL similar al de Gough. Debido al parecido que presenta la plataforma Stewart con el robot propuesto por Gough hoy en día la configuración del tipo hexápodo con actuadores lineales se conoce como plataforma Gough-Stewart. Es de destacar que la plataforma Stewart fue propuesta para aplicaciones de simulador de vuelo. Es justo también indicar que Klaus Cappel en 1964 de forma separada, y sin tener conocimiento previo de los trabajos de Gough y de Stewart, patenta una configuración similar al robot hexápodo como dispositivo para simulación de movimiento.\\
+
+
+
+\chapter{Aplicaciones de los manipuladores paralelos} 
+
+Este tipo de manipulador presenta grandes ventajas comparado con los manipuladores seriales, como son: mejor estabilidad y precisión, peso ligero, capacidad de manipular cargas relativamente grandes, altas velocidades y aceleraciones, y baja fuerza de actuación.\\
+
+En la actualidad los robots son parte fundamental de nuestra industria, facilitando la ejecución de múltiples tareas, aumentando la precisión del producto final y disminuyendo tiempos de ejecución.\\
+
+Además, son muchos otros los ámbitos en los que los sistemas robóticos modernos colaboran, como pueden ser el sector aeroespacial, diversas aplicaciones médicas, industria de los videojuegos, etc. En particular, los denominados manipuladores paralelos han ido adquiriendo en los últimos años una notable relevancia, existiendo numerosas líneas de investigación y proyectos asociados al estudio y desarrollo de este tipo de robots. Sin embargo, en ocasiones, no siempre existe una comunicación bilateral entre industria e investigación, o incluso entre las propias ramas de investigación existentes, de forma que se crea un cierto desconocimiento acerca de los trabajos realizados, los que están en proceso de ejecución y las posibles líneas de trabajo futuras. Por ello, cuando un determinado ámbito del conocimiento alcanza un cierto grado de madurez, conviene reflejar su actual estado de la técnica. En este sentido, los autores del presente artículo realizan una revisión de los campos en los cuales los manipuladores paralelos tienen una especial participación, así como de las líneas de trabajo más activas en el análisis y diseño de estos robots.\\
+
+\section{Ejemplos}
+Hay diferentes tipos de Manipuladores de paralelos, pero al final todos se rigen por algunas reglas para que se puedan identificar o diferencias de otros tipos de manipuladores.\\
+\\
+\\
+
+Entre ellos están los siguientes; \\
+\begin{center}
+\includegraphics[scale=1.15]{1.png} \\
+\includegraphics[scale=1]{2.PNG}\\
+\end{center}
+
+
+Los robots paralelos se han venido empleando para distintas tareas como en simuladores de vuelo, máquinas caminadoras, dispositivos de máquinas–herramientas, micro manipulación a alta frecuencia (telescopios)y recientemente para tareas de ensamble. \\
+
+En el sector industrial, donde las velocidades de trabajo y los requisitos son cada vez mayores, se está optando por arquitecturas de mecanismos hasta ahora descartadas. Los manipuladores paralelos han irrumpido en la industria no sin cierto éxito. Su superior capacidad de carga y alta rigidez les permiten ofrecer prestaciones superiores a las de los robots serie en tareas en las que las altas aceleraciones y velocidades son características fundamentales.\\
+
+\section{Descripción geométrica}
+En este trabajo se toma como modelo de estudio una versión del robot Delta integrada por una base fija y otra móvil conectadas por tres cadenas cinemáticas idénticas.\\
+
+\begin{center}
+\includegraphics[width=8cm]{3.jpg}
+\\
+Robot tipo Delta, a) vista general, b) estructura de la i-ésima cadena cinemática, c) configuración geométrica de la base fija y la base móvil.\\
+\end{center}
+
+Como se observa en la figura 1b, un sistema de referencia global ($X$, $Y$, $Z$) se define en el punto $O$ en el centro de la base fija. Los ejes $X$ y $Y$ yacen en el plano de la base fija y el eje $Z$ apunta hacia arriba verticalmente. \\
+
+
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+
+
+\end{document}
+
